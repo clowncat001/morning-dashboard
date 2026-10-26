@@ -32,15 +32,15 @@ const locations: WeatherLocation[] = [
 const trainLines = [
   {
     name: '埼京線',
-    url: 'https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=saikyoline',
+    url: 'https://traininfo.jreast.co.jp/train_info/kanto.aspx#direction_tohoku',
   },
   {
     name: '京浜東北線',
-    url: 'https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=keihin-tohokuline',
+    url: 'https://traininfo.jreast.co.jp/train_info/kanto.aspx#direction_tohoku',
   },
   {
     name: '武蔵野線',
-    url: 'https://traininfo.jreast.co.jp/train_info/line.aspx?gid=1&lineid=musashinoline',
+    url: 'https://traininfo.jreast.co.jp/train_info/kanto.aspx#direction_tohoku',
   },
 ]
 
