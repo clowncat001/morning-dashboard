@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/morning-dashboard/',
   plugins: [
     react(),
     VitePWA({
@@ -14,11 +15,12 @@ export default defineConfig({
         theme_color: '#315f9d',
         background_color: '#f3f6fb',
         display: 'standalone',
-        start_url: '/',
+        start_url: '/morning-dashboard/',
+        scope: '/morning-dashboard/',
         lang: 'ja',
         icons: [
           {
-            src: '/pwa-icon.svg',
+            src: '/morning-dashboard/pwa-icon.svg',
             sizes: 'any',
             type: 'image/svg+xml',
             purpose: 'any',
